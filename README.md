@@ -20,7 +20,7 @@
 # 𝙍𝙐𝙉𝙉𝙄𝙉𝙂
 To run Thor Simply Execute the Following Command....with respective values....
 
-      python3 thor.py <target-ip> <ssh-username> <password_wordlist_/complete path>
+      python3 thor.py <target-ip> <username_list_/complete path> <password_wordlist_/complete path>
 
 ![Capture](https://github.com/SxNade/Thor/blob/main/Thor.gif)
 
@@ -28,7 +28,7 @@ To run Thor Simply Execute the Following Command....with respective values....
 
 *you can run thor in background if thor finds password it will send a notification on screen*
 
-    python3 thor.py IP USER PASS-FILE&
+    python3 thor.py IP USER-FILE& PASS-FILE&
 
 **If we want by adding "&" at the end we can background the process**
 
